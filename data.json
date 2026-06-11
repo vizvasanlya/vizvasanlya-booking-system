@@ -1,0 +1,115 @@
+{
+  "name": "vizvasanlya-booking-system",
+  "title": "Booking Management System",
+  "subtitle": "Appointments, capacity, reviews, and reminders",
+  "eyebrow": "Operations MVP",
+  "initial": "BK",
+  "accent": "#059669",
+  "description": "Manage appointments, capacity, reminders, no-shows, waitlists, and customer follow-up.",
+  "metrics": [
+    {
+      "label": "Total bookings",
+      "delta": "Demand",
+      "type": "count"
+    },
+    {
+      "label": "Confirmed bookings",
+      "delta": "Ready",
+      "type": "count"
+    },
+    {
+      "label": "Confirmation rate",
+      "delta": "Ops",
+      "type": "percent"
+    },
+    {
+      "label": "Critical bookings",
+      "delta": "Risk",
+      "type": "count"
+    },
+    {
+      "label": "Booking value",
+      "delta": "Revenue",
+      "type": "currency"
+    }
+  ],
+  "statuses": [
+    "Confirmed",
+    "Pending",
+    "Completed",
+    "Waitlist",
+    "Cancelled"
+  ],
+  "resources": [
+    {
+      "title": "Consultation call",
+      "owner": "Sales",
+      "status": "Confirmed",
+      "priority": "High",
+      "dueDate": "2026-06-15",
+      "value": 1200,
+      "detail": "Reminder sent with calendar attachment.",
+      "notes": "Prepare discovery questions."
+    },
+    {
+      "title": "Product demo",
+      "owner": "Solutions",
+      "status": "Pending",
+      "priority": "Medium",
+      "dueDate": "2026-06-18",
+      "value": 2400,
+      "detail": "Waiting for customer time-zone confirmation.",
+      "notes": "Send two alternative times."
+    },
+    {
+      "title": "Support onboarding",
+      "owner": "Success",
+      "status": "Completed",
+      "priority": "High",
+      "dueDate": "2026-06-12",
+      "value": 1800,
+      "detail": "Follow-up notes attached to account.",
+      "notes": "Schedule 30-day check-in."
+    },
+    {
+      "title": "Workshop seat",
+      "owner": "Events",
+      "status": "Waitlist",
+      "priority": "Medium",
+      "dueDate": "2026-06-20",
+      "value": 600,
+      "detail": "Two seats expected to open this week.",
+      "notes": "Notify waitlist if cancellation occurs."
+    },
+    {
+      "title": "Enterprise renewal",
+      "owner": "Account",
+      "status": "Pending",
+      "priority": "Critical",
+      "dueDate": "2026-06-16",
+      "value": 18000,
+      "detail": "Executive renewal meeting needs confirmation.",
+      "notes": "Prepare ROI summary."
+    },
+    {
+      "title": "Cancelled trial call",
+      "owner": "Ops",
+      "status": "Cancelled",
+      "priority": "Low",
+      "dueDate": "2026-06-19",
+      "value": 300,
+      "detail": "Prospect rescheduled outside current window.",
+      "notes": "Send follow-up sequence."
+    }
+  ],
+  "activity": [
+    {
+      "text": "Confirmed consultation call.",
+      "at": "2026-06-10T09:15:00Z"
+    },
+    {
+      "text": "Added renewal follow-up.",
+      "at": "2026-06-08T11:20:00Z"
+    }
+  ]
+}
